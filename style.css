@@ -1,0 +1,262 @@
+
+
+
+
+body{
+	margin: 0;
+	padding: 0;
+
+
+	
+
+}
+#particles-js{
+	height: 100%;
+	background-image: linear-gradient(to right, #13547a , #80d0c7);
+	position: absolute;
+	width: 100%;
+
+
+}
+.img{
+	height: 100px;
+	width: 100px;
+}
+ul{
+	list-style-type: none;
+	position: fixed;
+	
+	top: 20%;
+	margin-left: 3%;
+	z-index: 3;
+
+
+}
+ul li{
+	color: white;
+	border-color: white;
+	border: 2px solid white;
+	padding: 5px;
+	text-align: center;
+	border-radius:25px; 
+	margin-right: 0%;
+	z-index: 3;
+}
+ul li{
+    font-family:Avenir LT Std ;
+    font-size: 1.5em;
+    cursor: pointer;
+
+}
+ul li:hover{
+	
+	
+	transition: 500ms;
+	border-color: #13547a;
+	background: white;
+	color: #13547a;
+
+
+}
+.menu1, .menu2, .menu3 {
+  width: 35px;
+  height: 5px;
+  background-color: white;
+  margin: 6px 0;
+  position: relative;
+  
+  left:90%;
+  display: none;
+ 
+  
+  cursor: pointer;
+
+}
+.container .img{
+	position: relative;
+	
+	
+	background-color: black;
+	width: 100%;
+	margin: 0;
+	padding: 0.5%;
+	opacity: 0.8;
+	margin-left: 0;
+	z-index: 5;
+
+}
+.container .text{
+	position: relative;
+	text-align: center;
+	top: -90px;
+	font-family : "Agency FB";
+	font-size: 2.75em;
+	z-index: 5;
+
+	
+
+
+}
+.container{
+	background color: black;
+	color: white;
+	margin-right: 0;
+	position: fixed;
+	width: 100%;
+	margin-left: 0;
+}
+
+
+
+
+.change .menu1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .menu2 {opacity: 0;}
+
+.change .menu3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+@media screen and (max-width:800px ){
+.container .text{
+
+margin-left: 5%;
+padding-left: 110px;
+margin-right: 5%;
+padding-right:20px;
+top: -130px;
+}
+
+.container .img{
+	height: 125px;
+	padding-top: 30px;
+
+}
+
+ul li{
+	display: none;
+}
+
+ .menu2,.menu3, .menu1 {
+	display:block;
+	top: 40px;
+}
+
+
+
+}
+@media screen and (max-width:500px ){
+
+.container .img{
+	height: 150px;
+	padding-top: 30px;
+
+}
+.container .text{
+	top: -160px;
+
+}
+
+}
+
+
+
+
+
+
+
+
+
+/* Popup container - can be anything you want */
+.popup {
+	background: white;
+	position: relative;
+	left: 40%;
+	height: 410px;
+	top: 180px;
+	width: 200px;
+	color: #4a4a4a;
+	border-radius: 15px;
+	padding: 1%;
+	cursor: pointer;
+	text-align: center;
+	visibility: hidden;
+	
+  }
+
+/* The actual popup */
+.popup .popuptext {
+ 
+  text-align: center;
+	font-family: Helvetica,Arial,sans-serif;
+	background-color: white;
+
+}
+.it li{
+	list-style-type: none;
+	padding: 5px;
+	text-align: center;
+}
+ .it li:hover{
+	background: #487EB0;
+	color: white;
+	border-radius: 25px;
+	
+	text-align: center;
+}
+
+/* Popup arrow */
+
+/* Toggle this class - hide and show the popup */
+ .show .popup   {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+ /*.popup .show{
+	visibility: visible;
+}*/
+
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;} 
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+
+@media screen and (min-width: 800px ){
+
+.popup{
+	display: none;
+}
+}
+@media screen and (max-height: 600px ){
+
+ul li{
+	font-size: 1em;
+}
+ 
+
+}
+@media screen and (max-height: 500px ){
+
+ul li{
+	font-size: 0.5em;
+	
+	bottom: 5%;
+}
+ .popup .popuptext{
+ 	font-size: 1em;
+ }
+
+}
+
+
