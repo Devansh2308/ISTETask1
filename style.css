@@ -10,6 +10,8 @@ body{
 	
 
 }
+/*background property of particles-js animation*/
+
 #particles-js{
 	height: 100%;
 	background-image: linear-gradient(to right, #13547a , #80d0c7);
@@ -22,6 +24,7 @@ body{
 	height: 100px;
 	width: 100px;
 }
+/*properties of actual navigation bar*/
 ul{
 	list-style-type: none;
 	position: fixed;
@@ -58,6 +61,7 @@ ul li:hover{
 
 
 }
+/*properties of toggle menu which appearson resizing the window*/
 .menu1, .menu2, .menu3 {
   width: 35px;
   height: 5px;
@@ -72,6 +76,7 @@ ul li:hover{
   cursor: pointer;
 
 }
+/*header properties*/
 .container .img{
 	position: relative;
 	
@@ -107,7 +112,7 @@ ul li:hover{
 }
 
 
-
+/*Adding Javascript functionalities to toggle menu*/
 
 .change .menu1 {
   -webkit-transform: rotate(-45deg) translate(-9px, 6px);
@@ -120,6 +125,7 @@ ul li:hover{
   -webkit-transform: rotate(45deg) translate(-8px, -8px);
   transform: rotate(45deg) translate(-8px, -8px);
 }
+/*Adujusting the elements according to window size (width less than 800px)*/
 @media screen and (max-width:800px ){
 .container .text{
 
@@ -148,6 +154,7 @@ ul li{
 
 
 }
+/*Adujusting the elements according to window size (widht less than 500px)*/
 @media screen and (max-width:500px ){
 
 .container .img{
@@ -169,7 +176,7 @@ ul li{
 
 
 
-
+/* Popup  Navigation Bar container  */
 
 .popup {
 	background: white;
@@ -195,6 +202,7 @@ ul li{
 	background-color: white;
 
 }
+/*Styling of popup navigation bar*/
 .it li{
 	list-style-type: none;
 	padding: 5px;
