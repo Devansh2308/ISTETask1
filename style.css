@@ -65,7 +65,7 @@ ul li:hover{
   margin: 6px 0;
   position: relative;
   
-  left:85%;
+  left:88%;
   display: none;
  
   
@@ -174,7 +174,7 @@ ul li{
 .popup {
 	background: white;
 	position: relative;
-	left: 17%;
+	left: 20%;
 	height: 410px;
 	top: 180px;
 	width: 200px;
