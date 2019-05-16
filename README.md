@@ -1,4 +1,4 @@
-# ISTE TASK 
+# ISTE TASK 1
 WEBSITE
 
 
@@ -203,3 +203,5 @@ key | option type / notes | example
 `retina_detect` | boolean | `true` / `false`
 
 -------------------------------
+
+
