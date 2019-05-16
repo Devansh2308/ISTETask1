@@ -1,5 +1,6 @@
 # ISTE TASK 1
 WEBSITE
+This is a Responsive Website having a Navigation Bar, Header and Particle.js animation
 
 
 ## particles.js
