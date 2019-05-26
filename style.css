@@ -129,11 +129,11 @@ ul li:hover{
 @media screen and (max-width:800px ){
 .container .text{
 
-margin-left: 5%;
-padding-left: 110px;
-margin-right: 5%;
-padding-right:20px;
-top: -130px;
+
+
+
+top: -105px;
+font-size: 2em;
 }
 
 .container .img{
@@ -158,12 +158,16 @@ ul li{
 @media screen and (max-width:500px ){
 
 .container .img{
-	height: 150px;
+	height: 120px;
+
 	padding-top: 30px;
 
 }
 .container .text{
-	top: -160px;
+	font-size: 1.35em;
+	left: 17px;
+	top: -100px;
+
 
 }
 
@@ -191,6 +195,7 @@ ul li{
 	cursor: pointer;
 	text-align: center;
 	visibility: hidden;
+	z-index: 2000;
 	
   }
 
@@ -200,6 +205,7 @@ ul li{
   text-align: center;
 	font-family: Helvetica,Arial,sans-serif;
 	background-color: white;
+	z-index: 2001;
 
 }
 /*Styling of popup navigation bar*/
@@ -243,6 +249,9 @@ ul li{
 .popup{
 	display: none;
 }
+.container .text{
+	font-size: 2.5em;
+}
 }
 @media screen and (max-height: 600px ){
 
@@ -266,8 +275,177 @@ ul li{
 }
 @media screen and (max-width:450px ){
 .container .text{
-	font-size: 2em;
+	font-size: 1.35em;
 }
+
+}
+
+
+
+
+
+
+
+
+
+/*-------------------------------------------------------*/
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.mySlides img{
+
+height: 480px;
+width: 1100px;
+border-radius: 10%;
+
+}
+.slideshow-container {
+  max-width: 600px;
+  position: relative;
+  margin: auto;
+  top: 150px;
+  left: -80px;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  position: relative;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  top: 160px;
+  left: 10%;
+  top: 150px;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 1470px) {
+	.mySlides img{
+		width: 1100px;
+  position: relative;
+  margin: auto;
+  top: 0px;
+  left: -40px;
+
+	}
+}
+@media only screen and (max-width: 1410px) {
+	.mySlides img{
+		width: 900px;
+  position: relative;
+  margin: auto;
+  top: 0px;
+  left: 30px;
+
+	}
+}
+@media only screen and (max-width: 1350px) {
+	.mySlides img{
+		width: 700px;
+  position: relative;
+  margin: auto;
+  top: 0px;
+  left: 150px;
+
+	}
+}
+@media only screen and (max-width: 1230px) {
+	.mySlides img{
+		width: 500px;
+  position: relative;
+  margin: auto;
+  top: 0px;
+  left: 250px;
+
+	}
+}
+@media only screen and (max-width: 800px) {
+	.mySlides img{
+		width: 500px;
+  position: relative;
+  margin: auto;
+  top: -430px;
+  left: 100px;
+
+	}
+	.container .text{
+		font-size: 1.35em;
+	}
+	.dot{
+		position: relative;
+        top: -250px;
+        left:-5px;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	.mySlides img{
+		width: 400px;
+  position: relative;
+  margin: auto;
+  top: -430px;
+  left: 100px;
+
+	}
+	 .container .text{
+    	font-size: 0.7em;
+    	margin-left: 10px;
+    	top: -90px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+	.mySlides img{
+		width: 350px;
+		height: 350px;
+  position: relative;
+  margin: auto;
+  top: -430px;
+  left: 100px;
+
+	}
+
 
 }
 
